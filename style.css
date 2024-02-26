@@ -1,0 +1,142 @@
+
+* {
+margin: 0;
+padding: 0;
+
+}
+
+.main-info {
+ background-color: #F5F7F8;
+}
+
+h1 {
+    color: #45474B;
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Sacramento", cursive;
+    font-size: 100px;
+}
+
+h2 {
+    color: #F4CE14;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+}
+
+.personal-image {
+    display: flex;
+    justify-content: center;
+}
+.personal-image img{
+    height: 200px;
+    border-radius: 50%;
+    margin: 30px ;
+}
+
+.more-info {
+    text-align: center;
+}
+
+.personal-experiance {
+    padding-bottom: 100px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.icon{
+    height: 40px;
+    margin-right: 5px;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+p {
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+
+.projects {
+    
+    background-color: #495E57;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.project-head {
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 30px 30px 10px 10px;
+}
+.card h3 {
+    color: #F5F7F8;
+    margin-top: 10px;
+}
+
+.card-pragraph {
+    margin-top: 10px;
+    text-align: left;
+    color: #F5F7F8;
+    width: 300px;
+    padding-bottom: 20px;
+    
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-right: 20px;
+    border: 1px solid white;
+    border-radius: 30px 30px 10px 10px ;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #F4CE14;
+    color: black;
+    border: 0;
+    border-radius: 30px;
+}
+
+@media (max-width : 600px) {
+    h1 {
+        color: #45474B;
+        text-align: center;
+        padding-top: 50px;
+        font-family: "Sacramento", cursive;
+        font-size: 80px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin-bottom: 50px;
+    }
+
+}
+
